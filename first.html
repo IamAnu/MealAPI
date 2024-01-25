@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal App</title>
+    <link rel="stylesheet" href="first.css"> 
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <script src="https://kit.fontawesome.com/4e42db1cf9.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe App</h1>
+            <form>
+                <input 
+                    type="text"
+                    placeholder="search you Recipe"
+                    id="searchBox"
+                />
+                <button type="submit" id="searchButton">search</button>
+            </form> 
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <!-- Fetch recipe  -->
+                <!-- Text will hide when recipe fetch -->
+                <h2> Search Your favourate recipes here... </h2>
+            </div>   
+            
+            <div class="recipe-details">
+                <button class="recipe-close-btn">
+                    X
+                    <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+                </button>
+                <div class="recipe-details-content"></div>
+            </div> 
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/4e42db1cf9.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
